@@ -1,0 +1,32 @@
+= Installer =
+
+ * debian-installer # also has side-effect of pulling in installer image build system
+ * debian-installer-udebs
+ * gfxboot
+ * gfxboot-theme-ubuntu
+
+ * ppp-udeb # experimental
+
+ * installation-guide-amd64 [amd64]
+ * installation-guide-armhf [armhf]
+ * installation-guide-i386 [i386]
+ * installation-guide-powerpc [powerpc]
+
+ * lilo
+ * lilo-installer [amd64 i386]
+ * grub-efi [amd64 i386]
+ * grub-efi-amd64 [amd64 i386]
+ * grub-efi-ia32 [amd64 i386]
+ * grub-efi-amd64-signed [amd64]
+ * sbsigntool
+
+ * live-installer
+
+= Kernel udeb metapackages =
+
+ * linux-udebs-generic [amd64 i386 armhf]
+ * linux-udebs-generic-lpae [armhf]
+ * linux-ppc-udebs-powerpc-e500 [powerpc]
+ * linux-ppc-udebs-powerpc-e500mc [powerpc]
+ * linux-ppc-udebs-powerpc-smp [powerpc]
+ * linux-ppc-udebs-powerpc64-smp [powerpc]
